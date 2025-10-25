@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: #fff; */
+}
+.container{
+    /* background: #1e1e1e; */
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 400px;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form ,select, input, button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+form input{
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    height: 1rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 1rem;
+}
+.select-container img{
+    max-width: 2rem;
+    padding-right: 0.5rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+.select-container select{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.msg{
+    margin: 1.5rem 0;
+    color: #262626;
+    font-size: 0.9rem;
+    text-align: center;
+}
+button{
+    background: #262626;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.7rem;
+    transition: background 0.3s ease;
+}
+button:hover{
+    background: #444;
+}   
